@@ -6,12 +6,12 @@ int main() {
     Task tasks[MAX_TASKS];
     int task_count = 0;
     int choice;
-
+    
     // 起動時にタスクをロード
     task_count = load_tasks(tasks);
     printf("TODOアプリケーションへようこそ！\n");
     printf("%d個のタスクをロードしました。\n\n", task_count);
-
+    
     while (1) {
         printf("\n===== TODOメニュー =====\n");
         printf("1. タスクを追加\n");
